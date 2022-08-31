@@ -18,6 +18,7 @@ YChange = FirstDot[1] - SecondDot[1]
 
 if FirstDot[0] - SecondDot[0] == 0:
     print("잘못된 함수식입니다.")
+    input("")
     exit() 
 
 Slope = YChange / XChange
